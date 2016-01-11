@@ -1,0 +1,12 @@
+<shortcut>
+	<executable>/3ds/hans/hans.3dsx</executable>
+	<icon>/3ds/ironhax.smdh</icon>
+	<arg>-f/3ds/hans/titles/ironhax.txt</arg>
+</shortcut>
+<targets selectable="false">
+	<title mediatype="0">0004001000020900</title>
+	<title mediatype="0">0004001000021900</title>
+	<title mediatype="0">0004001000022900</title>
+	<title mediatype="0">0004001000027900</title>
+	<title mediatype="0">0004001000028900</title>
+</targets>
