@@ -7,6 +7,7 @@ This is my personal, extended version of Smealums 3DS homebrew starter pack. It'
 * CHMM2 by Rinnegatamante
 * ftBrony by mtheall
 * mGBA by endrift
+* prBoom by elhobbs
 * Playcoin Setter by MrCheeze
 * FBI by SteveIce10
 * svdt by meladroit
