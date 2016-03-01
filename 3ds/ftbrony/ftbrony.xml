@@ -1,3 +1,0 @@
-<services autodetect="false">
-	<request priority="1">soc:U</request>
-</services>

@@ -5,7 +5,7 @@ This is my personal, extended version of Smealums 3DS homebrew starter pack. It'
 * MenuHax Manager by Yellows8
 * HANS by smealum
 * CHMM2 by Rinnegatamante
-* ftBrony by mtheall
+* ftpd by mtheall
 * mGBA by endrift
 * prBoom by elhobbs
 * Playcoin Setter by MrCheeze
