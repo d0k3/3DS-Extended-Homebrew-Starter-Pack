@@ -13,8 +13,9 @@ This is my personal, extended version of Smealums 3DS homebrew starter pack. It'
 * svdt by meladroit
 * uncart by Archshift & others
 * CTRXplorer by d0k3
-* Decrypt9 by Archshift & d0k3
-* EmuNAND9Tool by d0k3
+* Decrypt9WIP by Archshift & d0k3
+* EmuNAND9 by d0k3
+* GodMode9 by d0k3
 * BrahmaLoader by d0k3 (handles ARM9 payloads)
 * ReiNAND CFW by reisyukaku (without the evil firmware.bin file)
 * CakesFW by mid-kid (you need to get some files yourself)
