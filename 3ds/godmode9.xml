@@ -1,5 +1,5 @@
 <shortcut>
 	<executable>/arm9payloads/brahmaloader.3dsx</executable>
     <icon>/3ds/godmode9.smdh</icon>
-	<arg>/arm9payloads/GodMode9.bin 0x0 0x0 0xF</arg>
+	<arg>/arm9payloads/GodMode9.bin 0x0 0x0 3xF</arg>
 </shortcut>
