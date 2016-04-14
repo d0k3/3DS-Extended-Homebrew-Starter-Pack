@@ -1,0 +1,5 @@
+<shortcut>
+	<executable>/arm9payloads/brahmaloader.3dsx</executable>
+    <icon>/3ds/safea9lhinstaller.smdh</icon>
+	<arg>/arm9payloads/SafeA9LHInstaller.dat 0x12000 0x0 0xF</arg>
+</shortcut>
