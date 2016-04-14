@@ -17,8 +17,9 @@ This is my personal, extended version of Smealums 3DS homebrew starter pack. It'
 * EmuNAND9 by d0k3
 * GodMode9 by d0k3
 * BrahmaLoader by d0k3 (handles ARM9 payloads)
-* ReiNAND CFW by reisyukaku (without the evil firmware.bin file)
+* ReiNAND CFW by reisyukaku
 * CakesFW by mid-kid (you need to get some files yourself)
 * MiniPasta by zoogie
 * TinyFormat by javiMaD
+* PlaiSysUpdater by Plailect
 * Various installers and tools by smealum
