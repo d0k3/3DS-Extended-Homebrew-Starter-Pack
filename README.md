@@ -20,4 +20,5 @@ This is my personal, extended version of Smealums 3DS homebrew starter pack. It'
 * ReiNAND CFW by reisyukaku (without the evil firmware.bin file)
 * CakesFW by mid-kid (you need to get some files yourself)
 * MiniPasta by zoogie
+* TinyFormat by javiMaD
 * Various installers and tools by smealum
