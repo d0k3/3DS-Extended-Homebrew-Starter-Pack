@@ -1,0 +1,5 @@
+<shortcut>
+	<executable>/arm9payloads/brahmaloader.3dsx</executable>
+    <icon>/3ds/otphelper.smdh</icon>
+	<arg>/arm9payloads/OTPHelper.bin 0x0 0x0 0xF</arg>
+</shortcut>
