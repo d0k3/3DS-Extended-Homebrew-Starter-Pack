@@ -1,7 +1,7 @@
 --ihaveamac--
 -- updater issues go to https://github.com/ihaveamac/mashers-gl-updater/issues
 -- licensed under the MIT license: https://github.com/ihaveamac/mashers-gl-updater/blob/master/LICENSE.md
-version = "2.2"
+version = "2.21"
 
 -- temporary workaround due to a mistake in the current lpp-3ds build
 FREAD = 0
@@ -107,6 +107,7 @@ end
 -- since the drawing code has become big
 dofile(System.currentDirectory().."/drawing.lua")
 
+latest_version = ""
 Screen.waitVblankStart()
 
 -- error handling so cleanup can still happen
@@ -157,27 +158,28 @@ status, err = pcall(function()
         getServerState()
     end
 
-    local latest_ver = state:sub(25, -2)
+    --noinspection GlobalCreationOutsideO
+    latest_version = state:sub(25, -2)
     -- display version information
     if vp[2] == "%NOVERSION%" then
-        updateState("showversion-noinstall", latest_ver)
+        updateState("showversion-noinstall", latest_version)
     else
-        if not skip_info or vp[2] == latest_ver then
-            updateState("showversion", latest_ver)
+        if not skip_info or vp[2] == latest_version then
+            updateState("showversion", latest_version)
         end
     end
 
     -- download launcher.zip
-    updateState("downloading", latest_ver)
+    updateState("downloading", latest_version)
     System.deleteFile("/mgl_temp/launcher.zip")
     Network.downloadFile(launcherzip_url, "/mgl_temp/launcher.zip")
 
     -- extract launcher.zip
-    updateState("extracting", latest_ver)
+    updateState("extracting", latest_version)
     System.extractZIP("/mgl_temp/launcher.zip", "/mgl_temp")
 
     -- install the files
-    updateState("installing", latest_ver)
+    updateState("installing", latest_version)
     System.createDirectory("/gridlauncher/update")
     deleteDirContents("/gridlauncher/update")
     local new_update = System.listDirectory("/mgl_temp/gridlauncher/update")
@@ -195,7 +197,7 @@ status, err = pcall(function()
     if skip_info then
         exit()
     else
-        updateState("done", latest_ver)
+        updateState("done", latest_version)
     end
 end)
 if not status then

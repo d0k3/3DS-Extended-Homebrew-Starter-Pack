@@ -166,28 +166,28 @@ function updateState(stype, info)
             printb(5, 150, "B: exit")
             Screen.flip()
         end
-        drawChangelog(vp[2], vp[2])
-        local selected_ver = vp[2]
+        drawChangelog(latest_version, latest_version)
+        local selected_ver = latest_version
         local pad, oldpad
         while true do
             pad = Controls.read()
             if (Controls.check(pad, KEY_DLEFT) or Controls.check(pad, KEY_DUP)) and not (Controls.check(oldpad, KEY_DLEFT) or Controls.check(oldpad, KEY_DUP)) then
                 -- there's some really crappy workaround here...
-                if selected_ver ~= vp[2] then
+                if selected_ver ~= latest_version then
                     --noinspection UnusedDef
                     selected_ver = string.sub("b"..selected_ver:sub(2) + 1, 1, -3)
-                    drawChangelog(selected_ver, vp[2])
+                    drawChangelog(selected_ver, latest_version)
                 end
             elseif (Controls.check(pad, KEY_DDOWN) or Controls.check(pad, KEY_DRIGHT)) and not (Controls.check(oldpad, KEY_DDOWN) or Controls.check(oldpad, KEY_DRIGHT)) then
                 if selected_ver ~= "b1" then
                     --noinspection UnusedDef
                     selected_ver = string.sub("b"..selected_ver:sub(2) - 1, 1, -3)
-                    drawChangelog(selected_ver, vp[2])
+                    drawChangelog(selected_ver, latest_version)
                 end
             elseif Controls.check(pad, KEY_Y) and not Controls.check(oldpad, KEY_Y) then
                 --noinspection UnusedDef
-                selected_ver = vp[2]
-                drawChangelog(selected_ver, vp[2])
+                selected_ver = latest_version
+                drawChangelog(selected_ver, latest_version)
             elseif Controls.check(pad, KEY_A) then return true
             elseif Controls.check(pad, KEY_B) then exit() end
             oldpad = pad
