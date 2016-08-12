@@ -1,5 +1,0 @@
-<shortcut>
-	<executable>/arm9payloads/brahmaloader.3dsx</executable>
-    <icon>/3ds/reinand.smdh</icon>
-	<arg>/arm9payloads/reiNAND.dat 0x12000 0x0 0xF</arg>
-</shortcut>
