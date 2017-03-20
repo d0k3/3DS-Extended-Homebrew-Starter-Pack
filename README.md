@@ -11,7 +11,6 @@ This is my personal, extended version of Smealums 3DS homebrew starter pack. It'
 * Playcoin Setter by MrCheeze
 * FBI by SteveIce10
 * svdt by meladroit
-* uncart by Archshift & others
 * CTRXplorer by d0k3
 * Decrypt9WIP by Archshift & d0k3
 * EmuNAND9 by d0k3
