@@ -1,7 +1,6 @@
 # 3DS Extended Homebrew Starter Pack
 
 This is my personal, extended version of Smealums 3DS homebrew starter pack. It's built upon Smealums original homebrew starter pack available from [here](http://smealum.github.io/3ds/), and contains these softwares:
-* Gridlauncher by mashers (instead of regular HB launcher)
 * MenuHax Manager by Yellows8
 * HANS by smealum
 * CHMM2 by Rinnegatamante
